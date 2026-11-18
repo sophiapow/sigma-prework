@@ -1,4 +1,6 @@
-numbers = [2, 4, 1, 0, 2, -1]
+number_list = input("Enter some numbers separated by a space: ")
+numbers = number_list.split(" ")
+
 
 smallest = numbers[0]
 for n in numbers:
